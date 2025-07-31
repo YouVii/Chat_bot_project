@@ -6,7 +6,7 @@ This project is a chatbot application that uses Google's Generative AI (Gemini) 
 
 ## Installation
 1. Set up the Telegram bot using the BotFather on Telegram
-2. Deploy on vercel with just a click [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/benincasantonio/gemini-ai-telegram-bot)
+2. Locally run and use ngork for webhook for the telegram.
 
 ## Environment Variables
 The following environment variables are required for the application to run:
@@ -29,11 +29,5 @@ This section tracks the progress of the project. The following features are plan
 - [x] Implement DateTimePlugin
 - [x] Implement gemini multimodal api, to recognize images and text
 - [x] Chat history mode
-- [x] Implement other plugins (e.g. weather, stock, etc.)
 - [x] Setup Continuous Delivery
-- [x] Implement Secure Token Validation for Telegram Webhook Requests | [Issue #2](https://github.com/benincasantonio/gemini-ai-telegram-bot/issues/2)
-- [ ] Make it work in telegram groups | [Issue #1](https://github.com/benincasantonio/gemini-ai-telegram-bot/issues/1)
-
-## Contributing
-
-Contributions are welcome! Feel free to open issues or submit PRs to help improve the project.
+- [x] Implement Secure Token Validation for Telegram Webhook Requests 
